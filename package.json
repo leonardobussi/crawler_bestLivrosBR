@@ -1,0 +1,29 @@
+{
+  "name": "crawler_bestSkateboarding",
+  "version": "1.0.0",
+  "description": "script crawler com nodejs para alimentar uma pagina estatica",
+  "main": "crawler.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon crawler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardobussi/crawler_bestSkateboarding.git"
+  },
+  "author": "leonardobussi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardobussi/crawler_bestSkateboarding/issues"
+  },
+  "homepage": "https://github.com/leonardobussi/crawler_bestSkateboarding#readme"
+}
